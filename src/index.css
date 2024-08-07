@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  
+}
+
+.app {
+  padding: 0px 15%;
+}
+
+.app.dark-mode {
+  background-color: rgba(97, 97, 97, 0.5);
+}
+
+.app.light-mode {
+  background-color: white;
+}
+
+.light {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0px 8%;
+  }
+}
